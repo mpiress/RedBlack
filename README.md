@@ -19,7 +19,8 @@
 
 
 <p align="center">
-  <img src="imgs/rb.png" />
+  <img src="imgs/rb.png" /><br/>
+  <caption>Teste</caption>
 </p>
 
 
