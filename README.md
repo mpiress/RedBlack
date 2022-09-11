@@ -20,7 +20,7 @@
 
 <p align="center">
   <img src="imgs/rb.png" /><br/>
-  <caption>Teste</caption>
+  <caption>Fig 1. Exemplo de estrutura de uma árvore binária do tipo Red Black.</caption>
 </p>
 
 
