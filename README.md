@@ -27,8 +27,14 @@
 Considerando o exemplo da Fig. 1, a estrutura RB define uma série de regras para que a estrutura se mantenha balanceda, são elas: 
 </p>
 
->> Todo nó é vermelho ou preto
-
+>
+> 1. Todo nó é vermelho ou preto
+> 2. A raiz é sempre preta, mesmo sendo o único nó
+> 3. Todo nó folha define seus filhos em nulo e esses são considerados sendo pretos. 
+> 4. Se um nó é vermelho, então ambos os vizinhos são pretos.
+> 5. Para todo nó, todos os caminhos até as folhas apresentam o mesmo número de nós pretos. 
+> 6. Para cada nova inserção, o novo nó começa com a cor vermelha.
+>
 
 
 
