@@ -19,8 +19,11 @@
 
 
 <div style="text-align: center">
+	
 <img src="imgs/rb.png" align="center">
+
 Fig 1. Exemplo de estrutura da árvore binária do tipo Red Black.
+
 </div>
 
 
