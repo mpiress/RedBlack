@@ -60,7 +60,7 @@ Considerando a Fig. 2, uma correção na estrutura deve ser realizada para deix�
 
 <p align="center">
   <img src="imgs/caso1c.png" /><br/>
-  <caption>Fig 3. Correção da estrutura considerando o problema abordado como caso 1.</caption>
+  <caption>Fig 3. Correção da estrutura considerando o problema abordado no caso 1.</caption>
 </p>
 
 <p align="justify">
@@ -69,9 +69,43 @@ Uma vez feita a correção do caso 1, os ponteiros de análise são atualizados 
 
 <p align="center">
   <img src="imgs/caso2.png" /><br/>
-  <caption>Fig 4. Correção da estrutura considerando o problema abordado como caso 2.</caption>
+  <caption>Fig 4. Correção da estrutura considerando o problema abordado no caso 2.</caption>
 </p>
 
+
+<p align="justify">
+	Uma vez realizada a rotação, note que os ponteiros de pai e item são atualizados, bem como, a organização de filhos se compararmos com a estrutura da Fig 3 que detalha a RB antes da rotação. 
+</p>
+
+<p align="justify">
+	Ao realizar a rotação programada pelo caso 2, chega-se a última etapa de análise e correção, o caso 3. 
+</p>
+
+>
+> **Caso 3**: O tio do item é preto, o item e seu pai são vermelhos e o item é o filho da esquerda. 
+> 
+
+<p align="justify">
+Como forma de atendimento ao caso 3, o pai do pai deve ser aplicado a uma troca de cor (e.g., nesse caso o nó com valor 11 passa a ser vermelho) e a árvore rotacionada para a direita. A Fig 5 detalha esse processo e a árvore resultante após a finalização da análise e rotações.
+</p>
+
+<p align="center">
+  <img src="imgs/caso3.png" /><br/>
+  <caption>Fig 5. Correção da estrutura considerando o problema abordado no caso 3.</caption>
+</p>
+
+<p align="justify">
+ Após a finalização do caso 3, a estrutura volta a se encontrar balanceada. Para termos certeza basta identificar o número de nós pretos desde a raiz até as folhas, esses devem se apresentar em mesmo número para todos os caminhos. Se isso for verdade, a estrutura se encontrará correta. Por fim, a Fig 6 detalha um pseudo algoritmo que une os três casos segundo Cormen at. all. 
+</p>
+
+<p align="center">
+  <img src="imgs/alg.png" /><br/>
+  <caption>Fig 6. Pseudo algoritmo de balanceamento adotado pela árvore Red Black segundo Cormen at all.</caption>
+</p>
+
+<p align="justify">
+	Segundo Cormen at. all, após a aplicação das estratégias acima abordadas para o balanceamento, a altura __h__ de uma árvore RB com __n__ chaves é de no máximo 2log(n+1). A prova é por indução e pode ser observada em detalhes no capítulo 13 do livro Algoritmos: Teoria e Prática. Por fim, como vantagem em comparação com a AVL, a RB emprega apenas rotações simples e não adota recursão para avaliar seus casos, o que pode beneficiar sua utilização para estruturas muito profundas.  
+</p>
 
 # Compilação e Execução
 
