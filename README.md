@@ -23,6 +23,12 @@
   <caption>Fig 1. Exemplo de estrutura de uma árvore binária do tipo Red Black.</caption>
 </p>
 
+<p align="justify">
+Considerando o exemplo da Fig. 1, a estrutura RB define uma série de regras para que a estrutura se mantenha balanceda, são elas: 
+</p>
+
+>> Todo nó é vermelho ou preto
+
 
 
 
