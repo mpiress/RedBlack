@@ -18,8 +18,10 @@
 </p>
 
 <div style="align:center; display:block">
+<figure>
 <img src="imgs/rb.png"/> 
 <caption> Fig 1. Exemplo de uma estrutura de árvore binária do tipo Red Black.</caption>
+</figure>
 </div>
 
 
