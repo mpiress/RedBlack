@@ -17,10 +17,10 @@
 	Em uma árvore binária do tipo Red Black (RB), os nós se mantêm aprocimadamente balanciados por meio de uma estratégia de cores. Diferente da AVL, em uma RB os nós são avaliados considerando um processo de parentesco, em que vizinhos são considerados e esses devem obedecer certos critérios de cor para indicar que a estrutura se encontra balanceada. Isso permite que processos de inserção, remoção e pesquisa sejam realizados sob custo computacional de O(logn). Um exemplo da estrutura de uma RB pode ser observada na Fig 1.
 </p>
 
-<p align="center">
+<figure align="center">
 <img src="imgs/rb.png"/> 
 <caption> Fig 1. Exemplo de uma estrutura de árvore binária do tipo Red Black.</caption>
-</p>
+</figure>
 
 
 
