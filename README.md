@@ -104,7 +104,7 @@ Como forma de atendimento ao caso 3, o pai do pai deve ser aplicado a uma troca 
 </p>
 
 <p align="justify">
-	Segundo Cormen at. all, após a aplicação das estratégias acima abordadas para o balanceamento, a altura _h_ de uma árvore RB com _n_ chaves é de no máximo 2log(n+1). A prova é por indução e pode ser observada em detalhes no capítulo 13 do livro Algoritmos: Teoria e Prática. Por fim, como vantagem em comparação com a AVL, a RB emprega apenas rotações simples e não adota recursão para avaliar seus casos, o que pode beneficiar sua utilização para estruturas muito profundas.  
+	Segundo Cormen at. all, após a aplicação das estratégias acima abordadas para o balanceamento, a altura _ h _ de uma árvore RB com _ n _ chaves é de no máximo 2log(n+1). A prova é por indução e pode ser observada em detalhes no capítulo 13 do livro Algoritmos: Teoria e Prática. Por fim, como vantagem em comparação com a AVL, a RB emprega apenas rotações simples e não adota recursão para avaliar seus casos, o que pode beneficiar sua utilização para estruturas muito profundas.  
 </p>
 
 # Compilação e Execução
