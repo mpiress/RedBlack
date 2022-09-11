@@ -1,4 +1,4 @@
-# Árvore AVL
+# Árvore Red Black
 
 <div style="display: inline-block;">
 <img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/> 
@@ -36,7 +36,18 @@ Considerando o exemplo da Fig. 1, a estrutura RB define uma série de regras par
 > 6. Para cada nova inserção, o novo nó começa com a cor vermelha.
 >
 
+<p align="justify">
+	Para que a estrutura RB se mantenha em conformidade com as 6 diretrizes acima apresentadas, sua construção é realizada adotando-se 3 casos de análise para cada nova inserção e remoção. Além disso, diferente da AVL, essa estrutura se baseia apenas em rotações simples para corrigir a falta de balanceamento entre suas sub-árvores.
+</p>
 
+>
+> 'Caso 1': A inserção de um novo nó vermelho deve 'GARANTIR' que seus vizinhos, i.e., nós próximos a um nível acima, considerados como pai e tio, devem ser pretos. 
+>  
+
+<p align="center">
+  <img src="imgs/caso1.png" /><br/>
+  <caption>Fig 2. Definição do caso 1 para uma estrutura em que a inserção do nó com valor 4 produz um desbalanceamento.</caption>
+</p>
 
 # Compilação e Execução
 
