@@ -41,7 +41,7 @@ Considerando o exemplo da Fig. 1, a estrutura RB define uma série de regras par
 </p>
 
 >
-> 'Caso 1': A inserção de um novo nó vermelho deve 'GARANTIR' que seus vizinhos, i.e., nós próximos a um nível acima, considerados como pai e tio, devem ser pretos. 
+> **Caso 1**: A inserção de um novo nó vermelho deve 'GARANTIR' que seus vizinhos, i.e., nós próximos a um nível acima, considerados como pai e tio, devem ser pretos. 
 >  
 
 <p align="center">
@@ -53,18 +53,25 @@ Considerando o exemplo da Fig. 1, a estrutura RB define uma série de regras par
 Considerando a Fig. 2, uma correção na estrutura deve ser realizada para deixá-la em conformidade com as regras apresentadas. Nesse contexto, considerando o caso 1, a solução é deixar o pai e tio pretos e avançar os ponteiros da estrutura sentido raiz, o que induzirá uma avaliação do caso 2. A Fig. 3 detalha o processo realizado no caso 1 que leva a estrutura para a análise do caso 2. 
 </p>
 
+>
+> **Caso 2**: O tio de um nó (i.e., item) é preto, o item e seu pai são vermelhos e o item é o filho da direita.
+> 
+
+
 <p align="center">
   <img src="imgs/caso1c.png" /><br/>
   <caption>Fig 3. Correção da estrutura considerando o problema abordado como caso 1.</caption>
 </p>
 
 <p align="justify">
-Uma vez feita a correção do caso 1, os ponteiros de análise são atualizados para um nível acima conforme detalhando na Fig 3, o que nos leva ao caso 2.
+Uma vez feita a correção do caso 1, os ponteiros de análise são atualizados para um nível acima conforme detalhando na Fig 3, o que nos leva ao caso 2. Neste caso há necessidade de executar uma correção por rotação. Essa é realizada a partir do pai e é realizada para a esquerda conforme exemplo da Fig 4. 
 </p>
 
->
-> 'Caso 2': O tio de um nó (i.e., item) é preto, o item e seu pai são vermelhos e o item é o filho da direita.
-> 
+<p align="center">
+  <img src="imgs/caso2.png" /><br/>
+  <caption>Fig 4. Correção da estrutura considerando o problema abordado como caso 2.</caption>
+</p>
+
 
 # Compilação e Execução
 
